@@ -1,4 +1,4 @@
-// my improved solution - O(N)
+// O(N) solution
 function validAnagram(arr1, arr2){
     let frequencyCounter1 = {};
     let frequencyCounter2 = {};
@@ -39,7 +39,7 @@ function validAnagram(arr1, arr2){
     return true;
 }
 
-// another solution
+// another O(N) solution
 function validAnagram(arr1, arr2){
     if (arr1.length !== arr2.length){
         return false;

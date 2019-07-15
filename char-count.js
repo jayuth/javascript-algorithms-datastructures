@@ -1,4 +1,4 @@
-/*
+// solution 1 
 function charCount(str){
     var result = {};
 
@@ -15,8 +15,8 @@ function charCount(str){
     }
     return result;
 }
-*/
 
+// solution 2 - refactor 
 function charCount(str){
     var result = {};
 
