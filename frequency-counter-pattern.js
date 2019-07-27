@@ -21,7 +21,7 @@ function same(arr1, arr2){
         if(!(key ** 2 in frequencyCounter2)){
             return false;
         }
-         // check if a value of key(n) in frequencyCounter1 is equal to a value of jey()n in frequencyCounter2
+         // check if a value of key(n) in frequencyCounter1 is equal to a value of key()n in frequencyCounter2
         if (frequencyCounter2[key ** 2] !== frequencyCounter1[key]){
             return false;
         }
