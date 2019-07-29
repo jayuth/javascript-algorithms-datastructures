@@ -10,8 +10,8 @@ function isSubsequence(s1, s2){
         if(firstLeft === s1.length){
             return true;
         }
-        
+
         secondLeft++;
     }
-    return false;;
+    return false;
 }
